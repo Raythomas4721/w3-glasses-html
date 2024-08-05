@@ -85,7 +85,7 @@
   }
 }
 .banner {
-  background-image: url(./images/home-header.png);
+  background-image: url("./images/home-header.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -103,7 +103,7 @@
     padding-right: 36px;
   }
   .banner {
-    background-image: url(/images/home-header-sm.png);
+    background-image: url("./images/home-header-sm.png");
   }
 }
 @media (max-width: 575px) {
@@ -240,7 +240,7 @@
 }
 .designed-glasses {
   padding-bottom: 80px;
-  background-image: url(./images/index-bg-md.png);
+  background-image: url("./images/index-bg-md.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -267,7 +267,7 @@
 
 @media (max-width: 767px) {
   .designed-glasses {
-    background-image: url(./images/index-bg-sm.png);
+    background-image: url("./images/index-bg-sm.png");
   }
   .designed-wrap {
     flex-wrap: wrap;
